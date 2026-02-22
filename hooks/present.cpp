@@ -351,7 +351,7 @@ namespace Hooks {
         if (!g_bGlobalLoaded) {
             if (g_pLogoTexture) {
                 ImGui::SetCursorPos(ImVec2((windowWidth - 128) * 0.5f, 80));
-                ImGui::Image((void*)g_pLogoTexture, ImVec2(128, 128), ImVec2(0, 1), ImVec2(1, 0));
+                ImGui::Image((void*)g_pLogoTexture, ImVec2(128, 128), ImVec2(0, 0), ImVec2(1, 1));
             }
 
             const char* text = "FoxCheat";
